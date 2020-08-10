@@ -1,17 +1,17 @@
 <template>
-  <div class="hello">
+  <div class="TodoTask">
     <h1>{{ msg }}</h1>
-    <h2>System developer</h2>
+    <h2>System Engineer</h2>
    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'TodoTask',
   data () {
     return {
-      msg: 'Mwesigye John Bosco'
+      msg: 'Kapele John Bosco'
     }
   }
 }
@@ -23,14 +23,14 @@ h1, h2 {
   font-weight: normal;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: circle;
+  padding: 60;
 }
 li {
   display: inline-block;
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #36a016;
 }
 </style>
